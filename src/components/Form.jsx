@@ -4,7 +4,6 @@ const Form = () => {
       name="contact v1"
       method="POST"
       data-netlify="true"
-      onSubmit="submit"
       netlify-honeypot="bot-field"
     >
       <input type="hidden" name="form-name" value="contact v1" />
