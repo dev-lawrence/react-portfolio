@@ -24,11 +24,11 @@ const Projects = () => {
                 <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                 <p className="line-clamp-3 mb-6">{project.description}</p>
 
-                <div className="mb-8">
+                <div className="mb-8 flex flex-wrap gap-2">
                   {project.stack.map((tech) => (
                     <span
                       key={tech}
-                      className="px-2 py-1 bg-gray-800 text-white rounded-full mr-2 mb-2"
+                      className="px-2 py-1 bg-gray-800 text-white rounded-full mb-2"
                     >
                       {tech}
                     </span>

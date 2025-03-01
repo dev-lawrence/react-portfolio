@@ -1,6 +1,6 @@
 const Form = () => {
   return (
-    <form name="contact v1" method="POST" netlify>
+    <form name="contact v1" method="POST" data-netlify="true">
       <input type="hidden" name="form-name" value="contact v1" />
 
       <div className="mb-4">
