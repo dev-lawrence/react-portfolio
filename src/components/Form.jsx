@@ -1,11 +1,8 @@
 const Form = () => {
   return (
-    <form name="contact v1" method="POST" netlify netlify-honeypot="bot-field">
+    <form name="contact v1" method="POST" netlify>
       <input type="hidden" name="form-name" value="contact v1" />
 
-      <div hidden>
-        <input name="bot-field" />
-      </div>
       <div className="mb-4">
         <label
           className="mb-2 inline-block font-semibold capitalize"
