@@ -40,7 +40,7 @@ const Header = () => {
     >
       <div className="container flex items-center justify-between py-4">
         {/* Logo */}
-        <div className="z-10 text-200 font-900">
+        <div className="z-10">
           <a className="font-bold md:text-lg text-white" href="/">
             Alex{' '}
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
